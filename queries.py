@@ -33,7 +33,7 @@ def add_word():
 
 # Function to update a word
 def edit_word():
-    value_requested = input("\nPresiones 0 para ver palabras\n\nIngrese el numero (#) o la palabra a eliminar: ")
+    value_requested = input("\nPresiones 0 para ver palabras\n\nIngrese el numero (#) o la palabra a editar: ")
     if value_requested == "0":
         get_words()
         edit_word()
